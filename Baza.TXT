@@ -1,0 +1,37 @@
+Create table igraci(
+ID int Identity(1,1) not null,
+Ime nvarchar(50) not null,
+Prezime nvarchar(50) not null,
+avgPts float not null,
+avgAst float not null,
+avgReb float not null,
+avgPIR float not null,
+BrDresa nvarchar(2) not null,
+pozicija char(1) not null)
+
+insert into igraci(Ime,Prezime,avgPts,avgReb,avgAst,avgPIR,BrDresa,pozicija) 
+values('Kevin','Punter',15,2.6,2.6,14.1,'7','F')
+insert into igraci(Ime,Prezime,avgPts,avgReb,avgAst,avgPIR,BrDresa,pozicija) 
+values('Zach','Leday',10.2,4.6,1.5,13.1,'2','F')
+insert into igraci(Ime,Prezime,avgPts,avgReb,avgAst,avgPIR,BrDresa,pozicija) 
+values('Alen','Smailagic',5.5,2.2,0.6,6.3,'9','F')
+insert into igraci(Ime,Prezime,avgPts,avgReb,avgAst,avgPIR,BrDresa,pozicija) 
+values('Mateusz','Ponitka',2.4,2.2,0.7,3.1,'37','F')
+insert into igraci(Ime,Prezime,avgPts,avgReb,avgAst,avgPIR,BrDresa,pozicija) 
+values('Jaleen','Smith',6.7,1.7,1.3,6.7,'0','G')
+insert into igraci(Ime,Prezime,avgPts,avgReb,avgAst,avgPIR,BrDresa,pozicija)  
+values('Aleksa','Avramovic',10.2,1.8,1.8,8.8,'4','G')
+insert into igraci(Ime,Prezime,avgPts,avgReb,avgAst,avgPIR,BrDresa,pozicija)  
+values('Ognjen','Jaramaz',3.2,1.3,1.5,2.6,'10','G')
+insert into igraci(Ime,Prezime,avgPts,avgReb,avgAst,avgPIR,BrDresa,pozicija)  
+values('James','Nunnally',12.3,3.2,2.6,13,'21','G')
+insert into igraci(Ime,Prezime,avgPts,avgReb,avgAst,avgPIR,BrDresa,pozicija)  
+values('Danilo','Andjusic',2,1.1,0.6,4.8,'33','G')
+insert into igraci(Ime,Prezime,avgPts,avgReb,avgAst,avgPIR,BrDresa,pozicija) 
+values('Perry','Dozier JR',9.2,3.0,3.1,9.9,'35','G')
+insert into igraci(Ime,Prezime,avgPts,avgReb,avgAst,avgPIR,BrDresa,pozicija)  
+values('Balsa','Koprivica',3.3,1.7,0.3,3.9,'5','C')
+insert into igraci(Ime,Prezime,avgPts,avgReb,avgAst,avgPIR,BrDresa,pozicija)  
+values('Frank','Kaminsky',8.9,3.4,1.6,9.5,'44','C')
+insert into igraci(Ime,Prezime,avgPts,avgReb,avgAst,avgPIR,BrDresa,pozicija) 
+values('Bruno','Caboclo',9.4,4.0,0.2,10.5,'50','C')
